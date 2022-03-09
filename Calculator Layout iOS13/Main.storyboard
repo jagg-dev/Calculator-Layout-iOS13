@@ -241,10 +241,10 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="148.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8H6-k7-KjO" userLabel="View Zero">
-                                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="68"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="148.5"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fU1-W1-Eu8">
-                                                                <rect key="frame" x="0.0" y="0.0" width="206.5" height="68"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="206.5" height="148.5"/>
                                                                 <color key="backgroundColor" red="0.1137254902" green="0.60784313729999995" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                                 <state key="normal" title="0">
@@ -284,7 +284,10 @@
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="qIp-az-lhG" secondAttribute="bottom" id="6sc-y0-rPY"/>
+                                                    <constraint firstAttribute="bottom" secondItem="8H6-k7-KjO" secondAttribute="bottom" id="WVd-gQ-Fes"/>
                                                     <constraint firstItem="qIp-az-lhG" firstAttribute="top" secondItem="izY-03-44O" secondAttribute="top" id="WxG-FX-0NG"/>
+                                                    <constraint firstItem="8H6-k7-KjO" firstAttribute="top" secondItem="izY-03-44O" secondAttribute="top" id="iF1-D6-itL"/>
+                                                    <constraint firstItem="8H6-k7-KjO" firstAttribute="leading" secondItem="izY-03-44O" secondAttribute="leading" id="xjs-i4-dFG"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
